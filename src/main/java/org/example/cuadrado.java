@@ -5,8 +5,8 @@
         private double lado2;
 
         public cuadrado() {
-            this.lado1 = 4.5;
-            this.lado2 = 4.5;
+            this.lado1 = 3.0;
+            this.lado2 = 3.0;
     }
 
     public double area () {
@@ -14,6 +14,7 @@
     }
     public double perimetro() {
             return 2 * (lado1 + lado2); }
+
 
     }
 
