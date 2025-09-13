@@ -2,12 +2,14 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        cuadrado cuadrado1 = new cuadrado();
-        circulo circulo1 = new circulo();
-        System.out.println("area del cuadrado: " + cuadrado1.area());
-        System.out.println("perimetro del cuadrado" + cuadrado1.perimetro());
-        System.out.println("Área del círculo: " + circulo1.areaC());
-        System.out.println("Perímetro del círculo: " + circulo1.perimetroC());
-        }
+        Figura f1 = new Cuadrado(4);
+        Figura f2 = new Circulo(3);
 
+        System.out.println("Área cuadrado: " + f1.calcularArea());
+        System.out.println("Perímetro cuadrado: " + f1.calcularPerimetro());
+
+        System.out.println("Área círculo: " + f2.calcularArea());
+        System.out.println("Perímetro círculo: " + f2.calcularPerimetro());
     }
+}
+
